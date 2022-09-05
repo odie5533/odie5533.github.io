@@ -1,23 +1,25 @@
 ---
 layout: about
-title: Home
+title: home
 permalink: /
 nav: true
 order: 1
 
 profile:
   align: right
-  image: portrait.jpeg
-  address: <p style="font-family:'Snell Roundhand'; font-size:13pt"><a href="/informalbio/" target="_blank">Informal Bio</a></p><a href="/assets/pdf/CV.pdf"><i class='ai ai-cv-square ai-2x'></i></a> <a href="mailto:adaniabutto@gmail.com"><i class='fas fa-envelope fa-2x'></i></a> <a href="https://github.com/adaniabutto"><i class='fab fa-github fa-2x'></i></a><br><br>adaniabutto[at]gmail[dot]com
+  image: profile_pic.png
+  address: <div class="social" style="font-family:'Snell Roundhand';font-size:13pt"><div class="contact-icons"><a href="/assets/pdf/David Bern Resume.pdf"><i class='fa-regular fa-file-pdf fa-2x'></i></a> <a href="https://github.com/odie5533"><i class='fab fa-github fa-2x'></i></a></div></div>
 
-news: true  # includes a list of news items
+projects: true
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
-I'm currently a <b>master's student in Psychology and Learning Sciences</b> at <a href="https://www.lmu.de/en/about-lmu/index.html">Ludwig-Maximilians-Universität München</a> (LMU Munich).
+I'm currently a Junior Software Engineer at Live Building Systems.
 
-I’m <b>interested in how children come to understand and obtain knowledge about the world</b>, and what role <b>curiosity, inquiry, and playful exploration</b> play in these processes.
+I am interested in <b>data flow</b>, data APIs, and the organization of <b>big data</b>. I am passionate about designing solutions to challenging data problems, and deploying them in a <b>scalable</b> manner.
 
-Relatedly, I’m also passionate about encouraging curiosity, inquiry, and exploration in formal and informal learning environments, especially to <b>foster children’s scientific literacy and reasoning</b>. How can we best design and facilitate effective, engaging, and personalized learning experiences for young students?
+I received my Bachelor of Science from Illinois Institute of Technology in Biomedical Engineering. My coursework included biological applications of statistics, digital signal processing, fluid dynamics, and differential equations.
 
-In my free time, I sometimes <a href="/writings/">blog</a> and dabble in small <a href="https://github.com/adaniabutto">webdesign / data viz / miscellaneous coding projects</a>. I always enjoy exchanging ideas with others, so please don't hesitate to <a href="mailto:adaniabutto@gmail.com">reach out!</a><br><br>
+In my free time, I dabble in small <a href="https://github.com/odie5533">coding projects</a>. I always enjoy exchanging ideas with others, so please don't hesitate to reach out!<br><br>
+

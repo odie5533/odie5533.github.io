@@ -1,5 +1,29 @@
 <!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
+<div class="projects">
+  <h2>projects</h2>
+  <div class="table">
+    <table class="table table-sm table-borderless">
+      {% for item in site.projects %}
+      <tr>
+        <td>
+          {%- if project.img %}
+          {%- include figure.html
+          path=project.img
+          alt="project thumbnail" -%}
+          {%- endif %}
+
+          {% if item.inline -%}
+          {{ item.content | emojify }}
+          {%- else -%}
+          <a class="project-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {%- endif %}
+        </td>
+      </tr>
+      {%- endfor %}
+    </table>
+  </div>
+</div>
+<!--<div class="grid-sizer"></div>
 <div class="grid-item">
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
@@ -33,4 +57,4 @@
         </div>
       </div>
     </a>
-</div>
+</div>-->
