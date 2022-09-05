@@ -1,0 +1,21 @@
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+ 
+:root {
+  --global-bg-color: #{$white-color};
+  --global-code-bg-color: #EEEEEE;
+  --global-text-color: #1a1f24;
+  --global-theme-color: #398AB9;
+  --global-hover-color: #1a1f24;
+  --global-footer-bg-color: #{$white-color};
+  --global-footer-text-color: #1a1f24;
+  --global-footer-link-color: #398AB9;
+  --global-distill-app-color: #{$grey-color};
+  --global-divider-color: rgba(0,0,0,.1);
+  --global-card-bg-color: #{$white-color};
+
+  .fa-sun {
+    display : none;
+  }
+}

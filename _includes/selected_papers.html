@@ -1,0 +1,7 @@
+
+          <div class="publications">
+            <h2>Research Activity</h2>
+            <p> For a complete list, see my <a href="/research">research page</a> or my <a href="/assets/pdf/CV.pdf">CV</a>.</p>
+            {% bibliography -f papers -q @*[selected=true]* %}
+            {% bibliography -f studentprojects -q @*[selected=true]* %}
+          </div>

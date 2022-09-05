@@ -1,0 +1,66 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  font-family: "Helvetica Neue Light", sans-serif;
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 66px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 40px;
+}
+
+body.sticky-bottom-footer {
+  padding-top: 75px;
+  padding-bottom: 40px;
+}
+
+.container {
+  max-width: $max-content-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+  position: relative;
+}
+
+// Profile
+.profile {
+  display: block;
+  img {
+    float: right;
+    width: 203px;
+    height: 203px;
+    border: #ccc 1px solid;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// TODO: redefine content layout.
+
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
