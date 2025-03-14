@@ -1,5 +1,8 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
+// Flag to skip transition on initial page load
+let isInitialLoad = true;
+
 // Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
@@ -245,6 +248,10 @@ let setSearchTheme = (theme) => {
 };
 
 let transTheme = () => {
+  // Skip transition on initial page load to prevent "dancing" effect
+  if (isInitialLoad) {
+    return;
+  }
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
     document.documentElement.classList.remove("transition");
@@ -281,6 +288,9 @@ let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
   setThemeSetting(themeSetting);
+
+  // Mark initial load as complete - future theme changes will animate
+  isInitialLoad = false;
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {

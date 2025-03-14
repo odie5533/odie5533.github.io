@@ -14,6 +14,8 @@
       <a href="{{ social[1] | relative_url }}" title="CV" target="_blank"><i class="ai ai-cv"></i></a>
     {% when 'dblp_url' %}
       <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
+    {% when 'devto_username' %}
+      <a href="https://dev.to/{{ social[1] }}" title="DEV Community" target="_blank"><i class="si si-devto"></i></a>
     {% when 'discord_id' %}
       <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
     {% when 'email' %}

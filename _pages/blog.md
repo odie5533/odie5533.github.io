@@ -6,7 +6,7 @@ nav: true
 nav_order: 1
 pagination:
   enabled: true
-  collection: posts
+  collection: my_posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
@@ -24,8 +24,11 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <!-- <h1>{{ site.blog_name }}</h1> -->
+    <h2>{{ site.blog_description | replace: 'software engineering', '<span style="color: #5A7A9F; font-weight: bold;">software engineering</span>' | replace: 'technology', '<span style="color: #5A7A9F; font-weight: bold;">technology</span>' | replace: 'coding', '<span style="color: #5A7A9F; font-weight: bold;">coding</span>' }}</h2>
+    <div class="newsletter-embed" style="text-align: center; height: 80px;">
+<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script><iframe src="https://subscribe-forms.beehiiv.com/04433b52-b45a-4995-8896-4cc59d079076" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 460px; height: 80px; margin: 0; border-radius: 0px 0px 0px 0px !important; background-color: transparent; box-shadow: 0 0 #0000; max-width: 100%;"></iframe>
+</div>
   </div>
   {% endif %}
 
@@ -56,7 +59,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.my_posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -106,7 +109,7 @@ pagination:
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site.my_posts %}
     {% endif %}
 
     {% for post in postlist %}

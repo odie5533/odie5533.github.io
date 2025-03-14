@@ -53,7 +53,7 @@ ninja.data = [
     {%- endif -%}
   {%- endfor -%}
   {%- if site.posts_in_search -%}
-    {%- for post in site.posts -%}
+    {%- for post in site.my_posts -%}
       {
         {%- assign title = post.title | escape | strip -%}
         id: "post-{{ title | slugify }}",
