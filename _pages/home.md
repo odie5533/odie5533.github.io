@@ -15,10 +15,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I'm currently a Software Engineer at Live Building Systems. I am passionate about designing solutions to challenging technology problems, and deploying them in a <b>scalable</b> manner.
-<!--
-I am interested in data APIs, software architecture, and artificial intelligence.
--->
+I'm a Software Engineer at Live Building Systems. I am passionate about solving difficult technology problems, working with excellent people, and using and building awesome software.
 
 I received my Bachelor of Science from Illinois Institute of Technology in Biomedical Engineering. My coursework included biological applications of statistics, digital signal processing, fluid dynamics, and differential equations.
 
