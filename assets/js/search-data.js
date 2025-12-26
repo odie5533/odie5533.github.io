@@ -38,18 +38,18 @@ ninja.data = [{
           section: "My_posts",handler: () => {
               window.location.href = "/blog/2025/celery-gevent/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/David%20Bern%20Resume.pdf", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/odie5533", "_blank");
+        },
+      },{
+        id: 'social-devto_username',
+        title: 'Devto_username',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-linkedin',
