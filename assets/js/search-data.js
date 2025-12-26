@@ -16,11 +16,27 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-celery-63-ram-reduction-and-100x-concurrency-with-gevent",
+        
+          title: "Celery: 63% RAM reduction and 100x concurrency with gevent",
+        
+        description: "From a single worker to 100x concurrency while reducing RAM from 378 MB to 139 MB.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/celery-gevent/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "my_posts-celery-63-ram-reduction-and-100x-concurrency-with-gevent",
+          title: 'Celery: 63% RAM reduction and 100x concurrency with gevent',
+          description: "From a single worker to 100x concurrency while reducing RAM from 378 MB to 139 MB.",
+          section: "My_posts",handler: () => {
+              window.location.href = "/blog/2025/celery-gevent/";
             },},{
         id: 'social-cv',
         title: 'CV',
