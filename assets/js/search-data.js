@@ -27,11 +27,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/celery-gevent/";
           
         },
-      },{id: "post-claude-code-dev-containers",
+      },{id: "post-dangerboxing-claude-code-in-a-dev-container",
         
-          title: "Claude Code Dev Containers",
+          title: "Dangerboxing: Claude Code in a Dev Container",
         
-        description: "Using Claude Code Dev Containers for safe sandboxes.",
+        description: "Skipping permission prompts by using a Dev Container.",
         section: "Posts",
         handler: () => {
           
@@ -48,9 +48,9 @@ ninja.data = [{
           description: "From a single worker to 100x concurrency while reducing RAM from 378 MB to 139 MB.",
           section: "My_posts",handler: () => {
               window.location.href = "/blog/2025/celery-gevent/";
-            },},{id: "my_posts-claude-code-dev-containers",
-          title: 'Claude Code Dev Containers',
-          description: "Using Claude Code Dev Containers for safe sandboxes.",
+            },},{id: "my_posts-dangerboxing-claude-code-in-a-dev-container",
+          title: 'Dangerboxing: Claude Code in a Dev Container',
+          description: "Skipping permission prompts by using a Dev Container.",
           section: "My_posts",handler: () => {
               window.location.href = "/blog/2026/claude-code-dev-containers/";
             },},{
