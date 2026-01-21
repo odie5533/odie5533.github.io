@@ -27,6 +27,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/celery-gevent/";
           
         },
+      },{id: "post-claude-code-dev-containers",
+        
+          title: "Claude Code Dev Containers",
+        
+        description: "Using Claude Code Dev Containers for safe sandboxes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/claude-code-dev-containers/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -37,6 +48,11 @@ ninja.data = [{
           description: "From a single worker to 100x concurrency while reducing RAM from 378 MB to 139 MB.",
           section: "My_posts",handler: () => {
               window.location.href = "/blog/2025/celery-gevent/";
+            },},{id: "my_posts-claude-code-dev-containers",
+          title: 'Claude Code Dev Containers',
+          description: "Using Claude Code Dev Containers for safe sandboxes.",
+          section: "My_posts",handler: () => {
+              window.location.href = "/blog/2026/claude-code-dev-containers/";
             },},{
         id: 'social-github',
         title: 'GitHub',
